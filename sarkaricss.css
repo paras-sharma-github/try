@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    
+}
+.outer{
+    height:1200px;
+    border:1px solid black;
+    width:93%;
+   
+    margin:0 3.5%;
+    
+}
+.header{
+    height:180px;
+    
+    width:100%;
+    background-color: blueviolet;
+}
+.title {
+    height:15%;
+    text-align:center;
+
+    width:100%;
+    color:white;
+}
+.title h1{
+    padding:40px;
+    font-size:42px;
+    font-weight: 700;
+    
+}
+
+
+.container{
+    height:60%;
+    width:100%;
+
+    
+}
+.card{
+    height:100%;
+    
+    width:30%;
+    margin:1.66%;
+    float:left;
+    border:2px solid black;
+    
+    
+}
+.card_header, .about_header{
+    height:40px;
+    width:100%;
+    text-align:center;
+    background:blueviolet;
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+    line-height:40px;
+    margin-bottom: 10px;
+
+}
+.card_body{
+    height:460px;
+}
+.card_body ul li a{
+    margin-left: 25px;
+    height:30px;
+    text-decoration:none;
+    margin:10px;
+    
+}.card_body ul li{margin-left: 25px;
+                    margin-bottom:10px;}
+
+.navbar{
+    margin-top: 2px;;
+    height:50px;
+    line-height: 50px;
+    width:100%;
+    display:flex;
+    border-left:2px solid white;
+    
+    background:blueviolet;
+    
+    
+}
+.navbar li {
+
+    width:33.33%;
+    list-style:none;
+    line-height:50px;
+    text-align:center;
+    display:inline-block;
+    
+    font-weight:bold;
+    border-right: 2px solid white
+}
+.navbar li a{
+    font-size:15px;
+    padding:4% 22.8%;
+    color:slategrey;
+}
+
+footer{
+     height:200px;
+    width:93%;
+    
+    background-color: #091e5c;
+    margin:0 auto;
+    color:white;
+    text-align:center;
+
+}
+a{
+    text-decoration:none;
+}
+.navbar li a.active{
+    color:white;
+}
+.navbar li a:hover{
+    color:white;
+}
+.card_body li a:hover {
+color:cornflowerblue;
+}
+@media(max-width:740px){
+    .card_body ul li a {
+        font-size:15px;
+    }
+    }
+    @media(max-width:600px){
+        .card_body li {
+            margin:5px;
+            font-size:10px;
+        }
+    .card_header{
+        font-size:15px;
+    }
+.header h1{
+    font-size:30px;
+
+}
+.header p{
+    font-size:15px;
+}
+.header{height:150px;}
+.navbar{height:41.5px;}}
+    @media(max-width:415px){
+        .about_body{font-size:13px;}
+        .card_header{
+            font-size:10px;
+        }
+    }
+  .ad_section{
+        width:100%;
+        height:15%;
+        border:1px solid black;
+        text-align:center;
+        margin:5px 0;
+        padding :auto;
+    }
+    .section1{
+        height:20%;
+    
+        width:100%;
+        border:1px solid black;
+        text-align:left;
+    }
+    .section1 .left{
+        height:100%;
+        width:75%;
+        float:left;
+        border-right:1px solid black;
+    }
+    .section1 .right{
+        height:100%;
+        width:25%;
+        float:left;
+        font-size:15px;
+        text-align:center;
+        
+    }
+    .footer{
+        color:white;
+        font-size:3vh;
+    }
+.about
+{
+    width:93%;
+    height:300px;
+    border:1px solid black;
+    margin:0px auto;
+    text-align: center;
+   font-size: 15px;;
+}
+#belowouterAd,.last_ad{
+    height:180px;
+    width:93%;
+    margin:2px auto;
+    border:1px solid black;
+    text-align:center;
+    
+
+}
+.description{
+    height:29%;
+    border:1px solid black;
+    width:100%;
+    
+    
+}
+.elig, .skills, .work{
+    border-right:1px solid black;
+    float:left;
+    height:100%;
+    width:33.33%;
+
+}
+.elig{border-right:none;}
+h2{color:green;margin-left:25px;}
+.elig ul, .work ul, .skills ul{
+    margin-left: 25px;
+    font-size: 18px;
+    line-height:27px;   
+}
+.apply{
+    height:30px;
+    width:93%;
+    margin:15px auto;
+    text-align: center;
+    
+}
+.apply a{
+    border-radius:5px;
+    color:white;
+    background-color: green;
+    padding:5px; 
+}
+.apply a:hover{
+    background-color: blueviolet;
+}
+
